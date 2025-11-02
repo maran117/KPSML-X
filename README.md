@@ -1,6 +1,6 @@
 <div align="center">
 
-## KPSML-X: Upstream Repo
+## KPSML-X: Upstream Branch
 
 <a href="https://github.com/Tamilupdates/KPSML-X/fork"><img alt="Forks" src="https://img.shields.io/github/forks/Tamilupdates/KPSML-X?style=plastic&logo=git&color=orange&label=Forks"></a> 
 <a href="https://github.com/Tamilupdates/KPSML-X/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Tamilupdates/KPSML-X?style=plastic&logo=github&color=FFD700&label=Stars"></a>
