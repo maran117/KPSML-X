@@ -206,15 +206,15 @@ Type {help_command} to get a list of available commands</b>'''
     CANCEL =         '\n┖ 🚫 {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = (
-        '═══════════════════\n'
-        '⌬ 📊 <b>Bot Stats</b>\n'
-        '┠ 📌 <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-        '┠ 💻 <b>CPU:</b> {cpu}% | <b>📀FREE:</b> {free} [{free_p}%]\n'
-        '┠ 🧠 <b>RAM:</b> {ram}% | <b>⏱️ UPTIME:</b> {uptime}\n'
-        '┖ 📥 <b>DL:</b> {DL}/s | <b>📤 UL:</b> {UL}/s\n'
-    )
-
+    FOOTER = '⌬ <b><i>📊 Bot Stats</i></b>\n'
+    TASKS =  '📌 <b>Tasks:</b> {Tasks}\n'
+    BOT_TASKS = '📌 <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
+    Cpu = '💻 <b>CPU:</b> {cpu}% | '
+    FREE =                      '<b>📀 FREE:</b> {free} [{free_p}%]'
+    Ram = '\n🧠 <b>RAM:</b> {ram}% | '
+    uptime =                     '<b>⏱️ UPTIME:</b> {uptime}'
+    DL = '\n📥 <b>DL:</b> {DL}/s | '
+    UL =                        '<b>📤 UL:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
@@ -245,12 +245,9 @@ Type {help_command} to get a list of available commands</b>'''
     # async def mirror_status(_, message): ----> status.py
     NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
 
-═══════════════════
-⌬ 📊 Bot Stats
-┠ 📌 Tasks: {Tasks}/{Ttask} | AVL: {Free}
-┠ 💻 CPU: {cpu}% | 📀FREE: {free} [{free_p}%]
-┠ 🧠 RAM: {ram}% | ⏱️ UPTIME: {uptime}
-┖ 📥 DL: {DL}/s | 📤 UL: {UL}/s
+⌬ <b><i>Bot Stats</i></b>
+┠ <b>CPU:</b> {cpu}% | <b>FREE:</b> {free} [{free_p}%]
+┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
     '''
     # ---------------------
 
